@@ -33,7 +33,7 @@ This module will be deprecated when Raku version 6.e is released since that vers
 AUTHOR
 ======
 
-Tom Browder ([tbrowder@cpan.org](tbrowder@cpan.org))
+Tom Browder ([mailto:tbrowder@cpan.org](mailto:tbrowder@cpan.org))
 
 COPYRIGHT and LICENSE
 =====================
