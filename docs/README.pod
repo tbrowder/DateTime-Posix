@@ -39,7 +39,7 @@ as its 'posix' method will then return fractional rather than integral seconds.
 
 =head1 AUTHOR
 
-Tom Browder L<<tbrowder@cpan.org>>
+Tom Browder (L<tbrowder@cpan.org>)
 
 =head1 COPYRIGHT and LICENSE
 
