@@ -3,7 +3,7 @@
 NAME
 ====
 
-DateTime::Posix - Provides a DateTime object that returns posix values with fractional seconds
+**DateTime::Posix** - Provides a DateTime object that returns posix values with fractional seconds
 
 SYNOPSIS
 ========
@@ -18,7 +18,7 @@ say $dt.posix-real; # OUTPUT: «0.23␤»
 DESCRIPTION
 ===========
 
-DateTime::Posix is a child class of Raku's **DateTime** class that returns 'posix' values as fractional instead of integral seconds.
+**DateTime::Posix** is a child class of Raku's **DateTime** class that returns 'posix' values as fractional instead of integral seconds.
 
 The module has two methods with slightly different names to allow some user flexibility: 
 
@@ -33,9 +33,9 @@ This module will be deprecated when Raku version 6.e is released since that vers
 AUTHOR
 ======
 
-Tom Browder <tbrowder@cpan.org>
+Tom Browder [tbrowder@cpan.org](tbrowder@cpan.org)
 
-COPYRIGHT AND LICENSE
+COPYRIGHT and LICENSE
 =====================
 
 Copyright © 2021 Tom Browder

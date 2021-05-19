@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-DateTime::Posix - Provides a DateTime object that returns posix values with fractional seconds
+B<DateTime::Posix> - Provides a DateTime object that returns posix values with fractional seconds
 
 =head1 SYNOPSIS
 
@@ -17,7 +17,7 @@ say $dt.posix-real; # OUTPUT: «0.23␤»
 
 =head1 DESCRIPTION
 
-DateTime::Posix is a child class of Raku's B<DateTime> class that returns 'posix'
+B<DateTime::Posix> is a child class of Raku's B<DateTime> class that returns 'posix'
 values as fractional instead of integral seconds.
 
 The module has two methods with slightly different names to allow
@@ -39,9 +39,9 @@ as its 'posix' method will then return fractional rather than integral seconds.
 
 =head1 AUTHOR
 
-Tom Browder <tbrowder@cpan.org>
+Tom Browder L<tbrowder@cpan.org>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT and LICENSE
 
 Copyright © 2021 Tom Browder
 
