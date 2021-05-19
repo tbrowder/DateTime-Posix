@@ -1,32 +1,7 @@
-unit class DateTimePosixReal:ver<0.0.1>:auth<cpan:TBROWDER>;
+unit class DateTimePosixReal is DateTime is export; 
 
+#multi method posix-real($in-timezone? --> Real:D) {
+multi method posix($in-timezone? --> Real:D) {
+    self.posix($in-timezone) + self.second - self.second.Int    
+}
 
-=begin pod
-
-=head1 NAME
-
-DateTimePosixReal - blah blah blah
-
-=head1 SYNOPSIS
-
-=begin code :lang<raku>
-
-use DateTimePosixReal;
-
-=end code
-
-=head1 DESCRIPTION
-
-DateTimePosixReal is ...
-
-=head1 AUTHOR
-
-Tom Browder <tbrowder@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2021 Tom Browder
-
-This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
-
-=end pod

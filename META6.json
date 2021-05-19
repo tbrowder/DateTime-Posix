@@ -7,7 +7,7 @@
   ],
   "depends": [
   ],
-  "description": "blah blah blah",
+  "description": "Provides a DateTime object that returns posix values with fractional seconds",
   "license": "Artistic-2.0",
   "name": "DateTimePosixReal",
   "perl": "6.d",
@@ -16,7 +16,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/tbrowder/DateTimePosixReal.git",
   "tags": [
   ],
   "test-depends": [

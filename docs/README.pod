@@ -1,0 +1,33 @@
+=begin pod
+
+=head1 NAME
+
+DateTimePosixReal - blah blah blah
+
+=head1 SYNOPSIS
+
+=begin code :lang<raku>
+
+use DateTimePosixReal;
+
+=end code
+
+=head1 DESCRIPTION
+
+DateTimePosixReal is a subclass of Raku's B<DateTime> class that returns 'posix'
+values as fractional instead of integral seconds.
+
+This module will be deprecated when Raku version 6.e is released since that
+version will provide the same capability for the B<DateTime> base class.
+
+=head1 AUTHOR
+
+Tom Browder <tbrowder@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2021 Tom Browder
+
+This library is free software; you may redistribute or modify it under the Artistic License 2.0.
+
+=end pod
