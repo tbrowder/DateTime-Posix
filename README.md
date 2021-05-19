@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/tbrowder/DatsTime-Posix/workflows/test/badge.svg)](https://github.com/tbrowder/DatsTime-Posix/actions)
+[![Actions Status](https://github.com/tbrowder/DateTime-Posix/workflows/test/badge.svg)](https://github.com/tbrowder/DateTime-Posix/actions)
 
 NAME
 ====
