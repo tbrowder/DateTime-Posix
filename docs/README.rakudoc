@@ -4,6 +4,9 @@
 
 B<DateTime::Posix> - Provides a DateTime object that returns posix values with fractional seconds
 
+Note this module's routines have been incorporated into core Raku
+version B<6.e>.
+
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
@@ -17,11 +20,11 @@ say $dt.posix-real; # OUTPUT: «0.23␤»
 
 =head1 DESCRIPTION
 
-B<DateTime::Posix> is a child class of Raku's B<DateTime> class that returns 'posix'
-values as fractional instead of integral seconds.
+B<DateTime::Posix> is a child class of Raku's B<DateTime> class that
+returns 'posix' values as fractional instead of integral seconds.
 
-The module has two methods with slightly different names to allow
-some user flexibility: 
+The module has two methods with slightly different names to allow some
+user flexibility:
 
 =begin code
 method Posix($in-timezone? --> Real:D) {...}
@@ -33,17 +36,18 @@ and
 method posix-real($in-timezone? --> Real:D) {...}
 =end code
 
-This module will be deprecated when Raku version 6.e is released since that
-version will provide the same capability for the B<DateTime> base class
-as its 'posix' method will then return fractional rather than integral seconds.
+This module will be deprecated when Raku version B<6.e> is released since
+that version will provide the same capability for the B<DateTime> base
+class as its 'posix' method will then return fractional rather than
+integral seconds.
 
 =head1 AUTHOR
 
-Tom Browder (<tbrowder@cpan.org>)
+Tom Browder (<tbrowder@acm.org>)
 
 =head1 COPYRIGHT and LICENSE
 
-Copyright © 2021 Tom Browder
+Copyright © 2021-2023 Tom Browder
 
 This library is free software; you may redistribute or modify it under the Artistic License 2.0.
 

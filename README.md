@@ -1,9 +1,11 @@
-[![Actions Status](https://github.com/tbrowder/DateTime-Posix/workflows/test/badge.svg)](https://github.com/tbrowder/DateTime-Posix/actions)
+[![Actions Status](https://github.com/tbrowder/DateTime-Posix/actions/workflows/linux.yml/badge.svg)](https://github.com/tbrowder/DateTime-Posix/actions) [![Actions Status](https://github.com/tbrowder/DateTime-Posix/actions/workflows/macos.yml/badge.svg)](https://github.com/tbrowder/DateTime-Posix/actions) [![Actions Status](https://github.com/tbrowder/DateTime-Posix/actions/workflows/windows.yml/badge.svg)](https://github.com/tbrowder/DateTime-Posix/actions)
 
 NAME
 ====
 
 **DateTime::Posix** - Provides a DateTime object that returns posix values with fractional seconds
+
+Note this module's routines have been incorporated into core Raku version **6.e**.
 
 SYNOPSIS
 ========
@@ -20,7 +22,7 @@ DESCRIPTION
 
 **DateTime::Posix** is a child class of Raku's **DateTime** class that returns 'posix' values as fractional instead of integral seconds.
 
-The module has two methods with slightly different names to allow some user flexibility: 
+The module has two methods with slightly different names to allow some user flexibility:
 
     method Posix($in-timezone? --> Real:D) {...}
 
@@ -28,17 +30,17 @@ and
 
     method posix-real($in-timezone? --> Real:D) {...}
 
-This module will be deprecated when Raku version 6.e is released since that version will provide the same capability for the **DateTime** base class as its 'posix' method will then return fractional rather than integral seconds.
+This module will be deprecated when Raku version **6.e** is released since that version will provide the same capability for the **DateTime** base class as its 'posix' method will then return fractional rather than integral seconds.
 
 AUTHOR
 ======
 
-Tom Browder (<tbrowder@cpan.org>)
+Tom Browder (<tbrowder@acm.org>)
 
 COPYRIGHT and LICENSE
 =====================
 
-Copyright © 2021 Tom Browder
+Copyright © 2021-2023 Tom Browder
 
 This library is free software; you may redistribute or modify it under the Artistic License 2.0.
 

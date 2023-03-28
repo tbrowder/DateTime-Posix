@@ -1,6 +1,8 @@
 Revision history for DateTime-Posix
 
 {{$NEXT}}
+    - Move to Zef Raku module repo
+    - Provide separate test for each OS
 
 0.9.0  2021-05-19T15:47:22-05:00
     - Initial version
